@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page3</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.css"
+        integrity="sha512-+Zybl5OKqmaXx42ysgDdEODFRj8kLRQFy87G77NWmQxS8JMiQhDKovhffSaUuMDyaKxZOZrzouVbQMtBrUcv7w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.css"
+        integrity="sha512-+Zybl5OKqmaXx42ysgDdEODFRj8kLRQFy87G77NWmQxS8JMiQhDKovhffSaUuMDyaKxZOZrzouVbQMtBrUcv7w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header class="mt-2 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="mt-1 col-4 border d-none d-lg-flex align-items-center justify-content-between box-input-search-header py-2">
+                    <input class="input-search-header bg-dark text-white" type="text" placeholder="search...">
+                    <span role="button" class="material-symbols-outlined text-white">search</span>
+                </div>
+                <div class="col-4 text-center">
+                    <img class="logo-header" src="assets/img/logo.png" alt="">
+                </div>
+                <div class="col-lg-4 col-8 d-flex justify-content-lg-around justify-content-end align-items-center">
+                    <span role="button" class="material-symbols-outlined text-danger fs-1 px-2">settings</span>
+                    <span role="button" class="material-symbols-outlined text-danger fs-1 px-2">account_circle</span>
+                    <div class="col-lg-1 col-auto d-flex d-lg-none align-items-center justify-content-end px-2">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span role="button"
+                                class="material-symbols-outlined">menu</span></button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header flex-column align-items-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                                <div class="d-flex align-items-center box-search mt-3 w-100">
+                                    <input class="input-search w-100" type="text" placeholder="search...">
+                                    <span role="button" class="material-symbols-outlined">search</span>
+                                </div>
+                                <a href="#" class="text-black py-2 fs-3 offcanvas-title mt-3">Home</a>
+                                <a href="#" class="text-black py-2 fs-3 offcanvas-title">Product</a>
+                                <a href="#" class="text-black py-2 fs-3 offcanvas-title">Demo</a>
+                                <a href="#" class="text-black py-2 fs-3 offcanvas-title">Blog</a>
+                                <a href="#" class="text-black py-2 fs-3 offcanvas-title">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 d-none d-lg-flex justify-content-center">
+                    <a class="px-3 text-info fs-4" href="#">Home</a>
+                    <a class="px-3 text-info fs-4" href="#">Gallery</a>
+                    <a class="px-3 text-info fs-4" href="#">About</a>
+                    <a class="px-3 text-info fs-4" href="#">Portfolio</a>
+                    <a class="px-3 text-info fs-4" href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-4 col-12 box-login">
+                    <h3 class="text-center mt-3">Book Cake</h3>
+                    <p class="text-center text-black-50">order form</p>
+                    <div class="text-center">
+                        <input class="mt-3 input-login" type="text" placeholder="username...">
+                        <input class="mt-3 input-login" type="text" placeholder="password...">
+                        <input class="mt-3 input-login" type="text" placeholder="email...">
+                        <textarea class="t-area mt-2" cols="30" rows="5" placeholder="type..."></textarea>
+                        <button class="btn btn-danger mt-2 button-book-now">Book now</button>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12 mt-lg-0 mt-3 position-relative box-main-img">
+                    <div class="main-img d-flex justify-content-center align-items-center flex-column">
+                        <p class="text-danger fs-2">beautiful</p>
+                        <h1 class="text-white">Cake & copcake</h1>
+                        <p class="text-white-50">___discover now</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3 col-12">
+                    <img class="w-100 h-100" src="assets/img/mob-3.jpg" alt="">
+                </div>
+                <div class="col-lg-6 col-12 box-img-center">
+                    <div class="img-center d-flex justify-content-center align-items-center flex-column">
+                        <p class="text-white">Cake tasting & Consultations </p>
+                        <h3 class="text-white">Healthy Recipes</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <img class="w-100 h-100" src="assets/img/shoe-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <h3 class="text-center">Featured Products</h3>
+                <p class="text-center">SPRING/SUMMER 2016</p>
+                <div class="col-lg-4 col-xl-3 col-sm-6 col-12 d-flex justify-content-center">
+                    <div class="card p-3 border-0" style="width: 18rem;">
+                        <div class="border">
+                            <span
+                                class="text-white bg-danger position-absolute px-2 pt-0 d-flex align-items-center mt-1">SALE!</span>
+                            <img src="assets/img/mob-3.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Organic Product</h5>
+                                <p class="card-text text-center text-black-50">$111.00</p>
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <span role="button" class="material-symbols-outlined text-danger">sell</span>
+                                    <span role="button"
+                                        class="material-symbols-outlined text-danger">shopping_basket</span>
+                                    <a href="#" class="btn btn-primary">add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-sm-6 col-12 d-flex justify-content-center">
+                    <div class="card p-3 border-0" style="width: 18rem;">
+                        <div class="border">
+                            <span
+                                class="text-white bg-info position-absolute px-2 pt-0 d-flex align-items-center mt-1">NEW!</span>
+                            <img src="assets/img/mob-3.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Organic Product</h5>
+                                <p class="card-text text-center text-black-50">$111.00</p>
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <span role="button" class="material-symbols-outlined text-danger">sell</span>
+                                    <span role="button"
+                                        class="material-symbols-outlined text-danger">shopping_basket</span>
+                                    <a href="#" class="btn btn-danger">add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-sm-6 col-12 d-flex justify-content-center">
+                    <div class="card p-3 border-0" style="width: 18rem;">
+                        <div class="border">
+                            <img src="assets/img/mob-3.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Organic Product</h5>
+                                <p class="card-text text-center text-black-50">$111.00</p>
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <span role="button" class="material-symbols-outlined text-danger">sell</span>
+                                    <span role="button"
+                                        class="material-symbols-outlined text-danger">shopping_basket</span>
+                                    <a href="#" class="btn btn-primary">add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-sm-6 col-12 d-flex justify-content-center">
+                    <div class="card p-3 border-0" style="width: 18rem;">
+                        <div class="border">
+                            <img src="assets/img/mob-3.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Organic Product</h5>
+                                <p class="card-text text-center text-black-50">$111.00</p>
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <span role="button" class="material-symbols-outlined text-danger">sell</span>
+                                    <span role="button"
+                                        class="material-symbols-outlined text-danger">shopping_basket</span>
+                                    <a href="#" class="btn btn-primary">add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 bg-dark">
+                <div class="col-lg-4 text-center">
+                    <img class="logo-main" src="assets/img/logo.png" alt="">
+                    <p class="h5 mt-3 text-white">Celebration Cakes</p>
+                    <p class="text-white-50 text-logo-main">Etiam porta sem malesuada magna mollis euismod.</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img class="logo-main" src="assets/img/logo.png" alt="">
+                    <p class="h5 mt-3 text-white">Celebration Cakes</p>
+                    <p class="text-white-50 text-logo-main">Etiam porta sem malesuada magna mollis euismod.</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img class="logo-main" src="assets/img/logo.png" alt="">
+                    <p class="h5 mt-3 text-white">Celebration Cakes</p>
+                    <p class="text-white-50 text-logo-main">Etiam porta sem malesuada magna mollis euismod.</p>
+                </div>
+            </div>
+            <div class="row mt-3 border text-center">
+                <h3>Cupcake Recipes</h3>
+                <p>BEAUTIFUL EASY TO MAKE CUPCAKE</p>
+                <div class="col-lg-5 col-12 text-start mt-5">
+                    <h5 class="text-danger">What do you need?</h5>
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis
+                        ornare vel eu leo. Donec sed odio dui. Donec sed odio dui.
+                        Vestibulum id ligula porta felis euismod semper.
+
+                        Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Donec sed odio dui.
+                        Vestibulum id ligula porta felis euismod semper.</p>
+                    <button class="btn btn-primary">Read more</button>
+                </div>
+                <div class="col-lg-7 col-12 mt-lg-0 mt-2">
+                    <img class="w-100" src="assets/img/clock-1.jpg" alt="">
+                    <div class="d-flex justify-content-center">
+                        <span class="pagination">1</span>
+                        <span class="pagination bg-danger">2</span>
+                        <span class="pagination">3</span>
+                        <span class="pagination">4</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-center m-auto box-card">
+                <div class="col-lg-4 col-12 text-center d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/shoe-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">A Simple Blog Post : Creative Design</h6>
+                            <div class="row">
+                                <div class="col-3 border-end">
+                                    <p class="h-75 fs-3 border-bottom">22</p>
+                                    <p>Aug</p>
+                                </div>
+                                <div class="col-9 d-flex align-items-center">
+                                    <span class="notefoot-card text-black-50">Aenean lacinia bibendum nulla sed
+                                        consectetur. Vestibulum id ligula porta felis euismod semper. </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 text-center d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/shoe-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger">A Simple Blog Post : Creative Design</h6>
+                            <div class="row">
+                                <div class="col-3 border-end">
+                                    <p class="h-75 fs-3 border-bottom">22</p>
+                                    <p>Aug</p>
+                                </div>
+                                <div class="col-9 d-flex align-items-center">
+                                    <span class="notefoot-card text-black-50">Aenean lacinia bibendum nulla sed
+                                        consectetur. Vestibulum id ligula porta felis euismod semper. </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 text-center d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/shoe-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">A Simple Blog Post : Creative Design</h6>
+                            <div class="row">
+                                <div class="col-3 border-end">
+                                    <p class="h-75 fs-3 border-bottom">22</p>
+                                    <p>Aug</p>
+                                </div>
+                                <div class="col-9 d-flex align-items-center">
+                                    <span class="notefoot-card text-black-50">Aenean lacinia bibendum nulla sed
+                                        consectetur. Vestibulum id ligula porta felis euismod semper. </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-3">
+        <div class="container bg-dark py-4">
+            <h2 class="text-center text-white">Testimonials</h2>
+            <p class="text-center text-white">WHAT OUR CUSTOMER SAYING?</p>
+            <p class="text-footer mt-3 text-white-50 w-50 m-auto text-center">“ Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris 
+                condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. ”</p>
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <img class="logo-footer me-3" src="assets/img/logo.png" alt="">
+                    <span>
+                        <p class="text-danger">Doodle Lys</p>
+                        <p class="text-white">UI/UX Web Design</p>
+                    </span>
+                </div>
+        </div>
+        <div class="container">
+            <div class="row w-50 justify-content-center align-items-center border m-auto position-relative box-brands bg-white">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <img class="brands-footer" src="assets/img/logo.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <img class="brands-footer" src="assets/img/logo.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <img class="brands-footer" src="assets/img/logo.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <img class="brands-footer" src="assets/img/logo.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <img class="brands-footer" src="assets/img/logo.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                    <img class="brands-footer" src="assets/img/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

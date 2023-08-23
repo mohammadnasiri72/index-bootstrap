@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../font/Yekan.ttf");
+}
+
+@font-face {
+    font-family: "nas";
+    src: url("../font/Shekasteh\ V2.001.ttf");
+}
+
+@font-face {
+    font-family: "vazir";
+    src: url("../font/Vazir.ttf");
+}
+
+
+body {
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-search-header{
+    border: none;
+    outline: none;
+}
+.box-input-search-header{
+    border-radius: 10px;
+}
+.logo-header{
+    width: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+#offcanvasRight{
+    z-index: 55545456;
+}
+.input-search{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: antiquewhite;
+    height: 50px;
+    padding-left: 15px;
+}
+.box-login{
+    border: 5px solid blue;
+    padding: 5px;
+}
+.input-login{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.329);
+}
+.t-area{
+    width: 80%;
+    border: none;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+}
+.button-book-now{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.main-img{
+    width: 100%;
+    border: 1px solid black;
+}
+@media (max-width: 992px){
+    .box-img-center{
+        height: 500px;
+    }
+    .box-main-img{
+        height: 500px;
+    }
+
+}
+
+.img-center{
+    background-image: url("../img/shoe-2.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    background-blend-mode: multiply;
+}
+
+.main-img{
+    height: 100%;
+    background-image: url("../img/clock-1.jpg");
+    background-color: rgba(0, 0, 0, 0.815);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.logo-main{
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.text-logo-main{
+    font-size: 12px;
+}
+.pagination{
+    border-radius: 50%;
+    background-color: darkgrey;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.pagination:hover{
+    color: blue;
+}
+.notefoot-card{
+    font-size: 12px;
+}
+.box-card{
+    width: 85%;
+}
+.text-footer{
+    font-size: 12px;
+}
+.logo-footer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.brands-footer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.box-brands{
+    top: -25px;
+
+}
